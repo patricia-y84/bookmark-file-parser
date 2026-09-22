@@ -1,0 +1,26 @@
+{
+  "name": "bookmark-file-parser",
+  "version": "0.1.0",
+  "description": "Parses the Netscape bookmark HTML format exported by browsers, with error messages that point to an exact line and column.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "bookmarks",
+    "parser",
+    "netscape-bookmark-file",
+    "html"
+  ],
+  "author": "patricia-y84",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.5.0"
+  }
+}
